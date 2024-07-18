@@ -1,6 +1,6 @@
 ## Hi there 👋 I am Amit.
 
-🔭 I’m currently working on my own projects to build a awesome resume and an impressive portfolio.
+🔭 I’m currently working on my own projects to build a nice resume and an impressive portfolio.
 
 🌱 I’m currently diving deep into the world of React and loving every bit of it!
 
