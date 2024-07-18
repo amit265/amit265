@@ -16,7 +16,7 @@
 
 ⚡ Fun fact: I started coding by creating simple app on my Android phone.
 
-🎉 When I’m not weaving code magic, you can find me fixing home appliances, exploring the great outdoors, playing with kids, cooking, or getting lost in a good book on my Kindle.
+🎉 When I’m coding, you can find me fixing home appliances, exploring the great outdoors, playing with kids, cooking, or getting lost in a good book on my Kindle.
 
 🌐 Check out my website where I post all my projects and write blogs: https://coderespite.com/
 
@@ -30,7 +30,7 @@
   ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
   ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
   ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-  ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white) (for Android development)
+  ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white) 
 
 
 <!--
