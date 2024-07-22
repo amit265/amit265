@@ -12,8 +12,6 @@
 
 📫 How to reach me: amitk.kumar414@gmail.com
 
-😄 Pronouns: He/Him
-
 ⚡ Fun fact: I started coding by creating simple app on my Android phone.
 
 🎉 When I’m not coding, you can find me fixing home appliances, exploring the great outdoors, playing with kids, cooking, or getting lost in a good book on my Kindle.
