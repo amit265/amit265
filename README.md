@@ -1,7 +1,5 @@
 ## Hi there 👋 I am Amit.
 
-🔭 I’m currently working on my own projects to build a nice resume and an impressive portfolio.
-
 🌱 I’m currently diving deep into the world of React and loving every bit of it!
 
 👯 I’m looking to collaborate on full stack web development projects, especially those involving React and Node.js.
