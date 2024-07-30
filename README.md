@@ -13,8 +13,8 @@
 ⚡ Fun fact: I started coding by creating simple app on my Android phone.
 
 🎉 When I’m not coding, you can find me fixing home appliances, exploring the great outdoors, playing with kids, cooking, or getting lost in a good book on my Kindle.
-
-🌐 Check out my website where I post all my projects and write blogs: https://coderespite.com/
+<!--
+🌐 Check out my website where I post all my projects and write blogs: https://coderespite.com/ -->
 
 🛠️ Technologies and Languages:
 
