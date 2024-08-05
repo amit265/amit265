@@ -8,7 +8,7 @@
 
 💬 Ask me about my experience in building Android apps or my journey in full stack web development.
 
-📫 How to reach me: amitk.kumar414@gmail.com
+📫 How to reach me: amit@coderespite.com
 
 ⚡ Fun fact: I started coding by creating simple app on my Android phone.
 
