@@ -1,23 +1,23 @@
 ## Hi there 👋 I’m Amit Kumar
 
 React Native & Android Developer with **5+ years of experience** building, shipping, and maintaining real-world mobile applications.  
-I’ve published **10+ apps**, including React Native apps under **MindCraft Learning** and earlier Android apps with **1M+ total installs**.
+I’ve published **10+ apps**, including production React Native apps under **MindCraft Learning** and earlier Android apps with **1M+ total installs**.
 
-I enjoy turning ideas and designs into **polished, high-performance mobile experiences** - offline-first, Firebase-backed, and user-friendly.
+I enjoy turning ideas and designs into **polished, high-performance mobile experiences** - offline-first, Firebase-backed, and built for real users.
 
 ---
 
 ### 🚀 What I’m working on
-- Building and scaling **React Native apps** for real users  
-- Improving **performance, UX, and reliability** across Android devices  
+- Building and scaling **React Native apps** used by real users
+- Improving **performance, UX, and reliability** across Android devices
 - Exploring **AI-powered features** in mobile apps (OpenAI, smart content, personalization)
 
 ---
 
 ### 💼 Professional Focus
-- **React Native** (production apps, Play Store publishing)
-- **Firebase** (Auth, Firestore, Analytics, Crashlytics, FCM)
-- Offline support, custom animations, and real-world UX fixes
+- React Native (production apps, Play Store publishing)
+- Firebase (Auth, Firestore, Analytics, Crashlytics, Cloud Messaging)
+- Offline-first apps, custom animations, and UX refinements
 - End-to-end development in small, remote teams
 
 ---
@@ -54,13 +54,13 @@ AI-powered trivia app with smart explanations, progress tracking, and leaderboar
 Tech: React Native, OpenAI API, Firebase  
 👉 https://play.google.com/store/apps/details?id=com.coderespite.triviaquestai
 
-**Question Games – Get to Know Me**  
-Conversation starter app for friends, couples & families  
-👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.questiongames
-
-**Spin the Wheel – Pick for Me**  
+**Spin the Wheel - Pick for Me**  
 Custom decision wheels with sounds, haptics & offline support  
 👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.spinthewheel
+
+**Question Games - Get to Know Me**  
+Conversation starter app for friends, couples & families  
+👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.questiongames
 
 **Cheesy Lines**  
 Pick-up line app with bookmarks, sharing & offline mode  
@@ -71,18 +71,29 @@ Self-paced mobile learning app with lessons, quizzes, flashcards & offline suppo
 Tech: React Native, Firebase  
 👉 https://app.coderespite.com
 
----
 
 ### 🌐 Web Projects
-- **CodeRespite.com** - personal portfolio & tech hub  
-👉 https://www.coderespite.com/
+- **CodeRespite.com** - personal portfolio & technical hub  
+  👉 https://www.coderespite.com
 
 ---
 
-### 📜 Certifications
-- JavaScript Algorithms & Data Structures - freeCodeCamp  
-- Namaste React - Akshay Saini  
-- Namaste Node - Akshay Saini  
+### 📊 GitHub at a glance
+
+![Amit's GitHub stats](https://github-readme-stats.vercel.app/api?username=amit265&show_icons=true&hide_title=true&count_private=true&hide=issues)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=amit265&layout=compact&hide=html,css)
+
+---
+
+### 🤝 Open to Opportunities
+
+I’m currently open to:
+- Remote **React Native** roles
+- Mobile-heavy full-stack projects
+- Contract or long-term collaboration with small, focused teams
+
+I work best where **product quality, performance, and user experience** matter.
 
 ---
 
