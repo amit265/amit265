@@ -86,6 +86,10 @@ Tech: React Native, Firebase
 
 ---
 
+![Codewars](https://www.codewars.com/users/amit265/badges/large)
+
+---
+
 ### 🤝 Open to Opportunities
 
 I’m currently open to:
