@@ -78,13 +78,6 @@ Tech: React Native, Firebase
 
 ---
 
-### 📊 GitHub at a glance
-
-![Amit's GitHub stats](https://github-readme-stats.vercel.app/api?username=amit265&show_icons=true&hide_title=true&count_private=true&hide=issues)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=amit265&layout=compact&hide=html,css)
-
----
 
 ![Codewars](https://www.codewars.com/users/amit265/badges/large)
 
