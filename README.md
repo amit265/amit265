@@ -49,10 +49,10 @@ I enjoy turning ideas and designs into **polished, high-performance mobile exper
 
 ### 📱 Selected Projects
 
-**Trivia Quest AI**  
-AI-powered trivia app with smart explanations, progress tracking, and leaderboards  
-Tech: React Native, OpenAI API, Firebase  
-👉 https://play.google.com/store/apps/details?id=com.coderespite.triviaquestai
+**CodeRespite**  
+Self-paced mobile learning app with lessons, quizzes, flashcards & offline support  
+Tech: React Native, Firebase  
+👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.coderespite
 
 **Spin the Wheel - Pick for Me**  
 Custom decision wheels with sounds, haptics & offline support  
@@ -62,14 +62,14 @@ Custom decision wheels with sounds, haptics & offline support
 Conversation starter app for friends, couples & families  
 👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.questiongames
 
+**Trivia Quest AI**  
+AI-powered trivia app with smart explanations, progress tracking, and leaderboards  
+Tech: React Native, OpenAI API, Firebase  
+👉 https://play.google.com/store/apps/details?id=com.coderespite.triviaquestai
+
 **Cheesy Lines**  
 Pick-up line app with bookmarks, sharing & offline mode  
 👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.cheezylines
-
-**CodeRespite (Closed Testing)**  
-Self-paced mobile learning app with lessons, quizzes, flashcards & offline support  
-Tech: React Native, Firebase  
-👉 https://app.coderespite.com
 
 
 ### 🌐 Web Projects
