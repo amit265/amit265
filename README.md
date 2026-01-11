@@ -1,9 +1,19 @@
 ## Hi there 👋 I’m Amit Kumar
 
 React Native & Android Developer with **5+ years of experience** building, shipping, and maintaining real-world mobile applications.  
-I’ve published **10+ apps**, including production React Native apps under **MindCraft Learning** and earlier Android apps with **1M+ total installs**.
+I’ve published **10+ apps**, including production React Native apps under [**Destya Studio**](https://destyastudio.com/) and earlier Android apps with **1M+ total installs**.
 
 I enjoy turning ideas and designs into **polished, high-performance mobile experiences** - offline-first, Firebase-backed, and built for real users.
+
+---
+
+### 📊 GitHub Statistics
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=amit265&show_icons=true&theme=radical&rank_icon=github" alt="Amit's GitHub stats" />
+  
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amit265&layout=compact&theme=radical" alt="Top Langs" />
+</p>
+
 
 ---
 
@@ -52,29 +62,31 @@ I enjoy turning ideas and designs into **polished, high-performance mobile exper
 **CodeRespite**  
 Self-paced mobile learning app with lessons, quizzes, flashcards & offline support  
 Tech: React Native, Firebase  
-👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.coderespite
+👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.coderespite)
 
 **Spin the Wheel - Pick for Me**  
 Custom decision wheels with sounds, haptics & offline support  
-👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.spinthewheel
+👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.spinthewheel)
 
 **Question Games - Get to Know Me**  
 Conversation starter app for friends, couples & families  
-👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.questiongames
+👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.questiongames)
 
 **Trivia Quest AI**  
 AI-powered trivia app with smart explanations, progress tracking, and leaderboards  
 Tech: React Native, OpenAI API, Firebase  
-👉 https://play.google.com/store/apps/details?id=com.coderespite.triviaquestai
+👉 [PlayStore](https://play.google.com/store/apps/details?id=com.coderespite.triviaquestai)
 
 **Cheesy Lines**  
 Pick-up line app with bookmarks, sharing & offline mode  
-👉 https://play.google.com/store/apps/details?id=com.mindcraftlearning.cheezylines
+👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.cheezylines)
 
 
 ### 🌐 Web Projects
-- **CodeRespite.com** - personal portfolio & technical hub  
-  👉 https://www.coderespite.com
+- [**CodeRespite.com**](https://coderespite.com) - personal portfolio & technical hub
+  
+- [**destyastudio.com**](https://destyastudio.com) - Destya Studio
+  
 
 ---
 
