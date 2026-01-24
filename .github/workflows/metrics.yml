@@ -34,16 +34,11 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_skipped: node_modules, build, .expo, dist
 
-          # 🚀 RECENT ACTIVITY (reliable only)
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: pr, issue
 
           # 🔥 COMMIT STREAK (very stable)
           plugin_streak: yes
 
-          
+
           # 📈 TOTAL LINES OF CODE (simple + honest)
           plugin_lines: yes
 
