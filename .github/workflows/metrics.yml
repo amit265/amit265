@@ -13,10 +13,10 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Pro Metrics
+      - name: Generate Developer Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Use the token you just created with 'repo' and 'workflow' scopes
+          # Your Personal Access Token (Classic)
           token: ${{ secrets.METRICS_TOKEN }} 
 
           # Basic Setup
@@ -25,33 +25,50 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
           
-          # ✨ ACHIEVEMENTS (Shows badges for your milestones)
+          # 📱 FEATURED PROJECTS (Highlighting your main work)
+          plugin_repositories: yes
+          plugin_repositories_featured: amit265/SnapSearch, amit265/samsung-monitor-remote
+          
+          # 🏆 ACHIEVEMENTS
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_threshold: B  # Only show respectable achievements
+          plugin_achievements_threshold: B
 
-          # 📊 LANGUAGES (Detailed breakdown)
+          # 📊 LANGUAGES (React Native / Android Focus)
           plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
+          plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes # Analyzes code depth (great for React Native/Android)
+          plugin_languages_indepth: yes
           plugin_languages_limit: 8
+          # Skip large/irrelevant folders to keep stats clean
+          plugin_languages_skipped: node_modules, build, .expo
 
-          # ⏰ HABITS (Shows your most active coding hours)
+          # 🏷️ TECH STACK (Shows icons for your skills)
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: icons
+          plugin_topics_sort: stars
+
+          # ⏰ HABITS
           plugin_habits: yes
-          plugin_habits_from: 200       # Analyze last 200 events
+          plugin_habits_from: 200
           plugin_habits_days: 14
-          plugin_habits_facts: yes      # Shows "Mildly interesting facts"
+          plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # 📅 ISOCALENDAR (The cool 3D commit view)
+          # 📅 ISOCALENDAR (3D Commit View)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: 3m  # This sets it to exactly 3 months
-          # 🚀 ACTIVITY (Recent highlights)
+          plugin_isocalendar_duration: 3m
+
+          # 🚀 ACTIVITY 
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
-          plugin_activity_filter: pr, issue, release # Focus on "big" contributions
+          plugin_activity_filter: pr, issue, release
 
-          # 📈 LINES OF CODE
+          # 📈 TOTAL LINES OF CODE
           plugin_lines: yes
+
+          # 🎩 NOTABLE CONTRIBUTIONS
+          plugin_notable: yes
+          plugin_notable_from: all
