@@ -1,7 +1,8 @@
 name: GitHub Metrics
+
 on:
   schedule:
-    - cron: "0 0 * * *" # Daily at midnight
+    - cron: "0 0 * * *" # Daily at midnight UTC
   workflow_dispatch:
   push:
     branches: ["main"]
@@ -16,36 +17,33 @@ jobs:
       - name: Generate Developer Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Your Personal Access Token (Classic)
-          # Ensure ghp_ token has: repo, read:user, read:org, workflow scopes
-          token: ${{ secrets.METRICS_TOKEN }} 
+          # 🔐 Token (must be a classic PAT with repo + read:org)
+          token: ${{ secrets.METRICS_TOKEN }}
 
-          # Basic Setup
+          # 👤 Basic identity
           user: amit265
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-          
-          # 📱 FEATURED PROJECTS (Fixed Repo References)
+
+          # 📌 FEATURED REPOSITORIES
           plugin_repositories: yes
-          plugin_repositories_featured: amit265/SnapSearch, amit265/samsung-monitor-remote
-          
+          plugin_repositories_featured: amit265/React-Native-Apps, amit265/React-Projects
+
           # 🏆 ACHIEVEMENTS
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: B
 
-          # 📊 LANGUAGES (Fixed to detect daily pushes)
+          # 📊 LANGUAGES
           plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage, lines
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
           plugin_languages_indepth: yes
-          plugin_languages_recent_load: 400
-          plugin_languages_recent_days: 14
           plugin_languages_limit: 8
-          plugin_languages_skipped: node_modules, build, .expo
+          plugin_languages_skipped: node_modules, build, .expo, dist
 
-          # 🏷️ TECH STACK
+          # 🏷️ TOPICS / TECH STACK
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: icons
@@ -58,19 +56,19 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          # 📅 ISOCALENDAR (Changed from buggy '3m' to 'half-year')
+          # 📅 ISOCALENDAR
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # 🚀 ACTIVITY 
+          # 🚀 ACTIVITY
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
-          plugin_activity_filter: pr, issue, release
+          plugin_activity_filter: pr, issue
 
-          # 📈 TOTAL LINES OF CODE
+          # 📈 LINES OF CODE
           plugin_lines: yes
 
           # 🎩 NOTABLE CONTRIBUTIONS
           plugin_notable: yes
-          plugin_notable_from: all
+          plugin_notable_from: organization
