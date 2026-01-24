@@ -17,8 +17,9 @@ jobs:
       - name: Generate Developer Metrics
         uses: lowlighter/metrics@latest
         with:
-          # 🔐 Token (must be a classic PAT with repo + read:org)
+          # 🔐 Classic PAT with: repo, read:org, read:user
           token: ${{ secrets.METRICS_TOKEN }}
+          log: debug
 
           # 👤 Basic identity
           user: amit265
@@ -26,49 +27,26 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
 
-          # 📌 FEATURED REPOSITORIES
-          plugin_repositories: yes
-          plugin_repositories_featured: amit265/React-Native-Apps, amit265/React-Projects
-
-          # 🏆 ACHIEVEMENTS
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
-
-          # 📊 LANGUAGES
+          # 📊 LANGUAGES (stable + meaningful)
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
           plugin_languages_limit: 8
           plugin_languages_skipped: node_modules, build, .expo, dist
 
-          # 🏷️ TOPICS / TECH STACK
-          plugin_topics: yes
-          plugin_topics_limit: 15
-          plugin_topics_mode: icons
-          plugin_topics_sort: stars
-
-          # ⏰ HABITS
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # 📅 ISOCALENDAR
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          # 🚀 ACTIVITY
+          # 🚀 RECENT ACTIVITY (reliable only)
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: pr, issue
 
-          # 📈 LINES OF CODE
+          # 🔥 COMMIT STREAK (very stable)
+          plugin_streak: yes
+
+          
+          # 📈 TOTAL LINES OF CODE (simple + honest)
           plugin_lines: yes
 
-          # 🎩 NOTABLE CONTRIBUTIONS
-          plugin_notable: yes
-          plugin_notable_from: organization
+          # 📅 ISOCALENDAR (you said this one behaves — so it stays)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
