@@ -1,13 +1,11 @@
-
 name: GitHub Metrics
 on:
-  # Schedule daily updates
   schedule:
-    - cron: "0 0 * * *"
-  # Allow manual trigger
+    - cron: "0 0 * * *" # Daily at midnight
   workflow_dispatch:
+  push:
+    branches: ["main"]
 
-# Grant permissions to commit back to the repository
 permissions:
   contents: write
 
@@ -15,19 +13,46 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Metrics
+      - name: Generate Pro Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use the token you just created with 'repo' and 'workflow' scopes
+          token: ${{ secrets.METRICS_TOKEN }} 
 
-          # Options
+          # Basic Setup
           user: amit265
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Kolkata
-          plugin_isocalendar: yes
+          
+          # ✨ ACHIEVEMENTS (Shows badges for your milestones)
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: B  # Only show respectable achievements
+
+          # 📊 LANGUAGES (Detailed breakdown)
           plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes # Analyzes code depth (great for React Native/Android)
+          plugin_languages_limit: 8
+
+          # ⏰ HABITS (Shows your most active coding hours)
+          plugin_habits: yes
+          plugin_habits_from: 200       # Analyze last 200 events
+          plugin_habits_days: 14
+          plugin_habits_facts: yes      # Shows "Mildly interesting facts"
+          plugin_habits_charts: yes
+
+          # 📅 ISOCALENDAR (The cool 3D commit view)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # 🚀 ACTIVITY (Recent highlights)
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: pr, issue, release # Focus on "big" contributions
+
+          # 📈 LINES OF CODE
           plugin_lines: yes
-          plugin_repositories: yes
-          plugin_repositories_affiliations: owner, collaborator
