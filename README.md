@@ -13,6 +13,9 @@ I enjoy turning ideas and designs into **polished, high-performance mobile exper
   
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amit265&layout=compact&theme=radical" alt="Top Langs" />
 </p>
+<p align="center">
+  <img src="github-metrics.svg" alt="GitHub Metrics" />
+</p>
 
 
 ---
