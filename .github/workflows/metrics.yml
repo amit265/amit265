@@ -46,8 +46,7 @@ jobs:
 
           # 📅 ISOCALENDAR (The cool 3D commit view)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
+          plugin_isocalendar_duration: 3m  # This sets it to exactly 3 months
           # 🚀 ACTIVITY (Recent highlights)
           plugin_activity: yes
           plugin_activity_limit: 5
