@@ -71,9 +71,10 @@ Tech: React Native, Firebase
 Custom decision wheels with sounds, haptics & offline support  
 👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.spinthewheel)
 
-**Question Games - Get to Know Me**  
+**AI Icebreaker: Question Games**  
 Conversation starter app for friends, couples & families  
 👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.questiongames)
+👉 [AppStore](https://apps.apple.com/us/app/ai-icebreaker-question-games/id6759521053)
 
 **Trivia Quest AI**  
 AI-powered trivia app with smart explanations, progress tracking, and leaderboards  
