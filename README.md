@@ -70,6 +70,8 @@ Tech: React Native, Firebase
 **Spin the Wheel - Pick for Me**  
 Custom decision wheels with sounds, haptics & offline support  
 👉 [PlayStore](https://play.google.com/store/apps/details?id=com.mindcraftlearning.spinthewheel)
+👉 [AppStore](https://apps.apple.com/us/app/spinny-random-picker-wheel/id6760378786)
+
 
 **AI Icebreaker: Question Games**  
 Conversation starter app for friends, couples & families  
