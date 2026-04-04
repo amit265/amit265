@@ -82,6 +82,8 @@ Conversation starter app for friends, couples & families
 AI-powered trivia app with smart explanations, progress tracking, and leaderboards  
 Tech: React Native, OpenAI API, Firebase  
 👉 [PlayStore](https://play.google.com/store/apps/details?id=com.coderespite.triviaquestai)
+👉 [AppStore](https://apps.apple.com/us/app/trivia-quest-ai-brain-quiz/id6760843431)
+
 
 **Cheesy Lines**  
 Pick-up line app with bookmarks, sharing & offline mode  
