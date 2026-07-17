@@ -91,7 +91,7 @@ Pick-up line app with bookmarks, sharing & offline mode
 
 
 ### 🌐 Web Projects
-- [**CodeRespite.com**](https://coderespite.com) - personal portfolio & technical hub
+- [**CodeRespite.in**](https://coderespite.in) - personal portfolio & technical hub
   
 - [**destyastudio.com**](https://destyastudio.com) - Destya Studio
   
@@ -115,11 +115,10 @@ I work best where **product quality, performance, and user experience** matter.
 ---
 
 ### 📫 Let’s connect
-- 📧 Email: **amit@coderespite.com**
-- 🌐 Portfolio: https://amit.coderespite.com/
+- 📧 Email: **amit@coderespite.in**
+- 🌐 Portfolio: https://amit.coderespite.in/
 - 💼 LinkedIn: https://linkedin.com/in/amit265
 - 🧑‍💻 GitHub: https://github.com/amit265
 
 ---
 
-⚡ Fun fact: I started coding by building Android apps in Java - and I still care deeply about performance, not just shiny UI.
