@@ -54,15 +54,11 @@ I enjoy building products that combine **clean architecture, polished user exper
 - Expo
 - TypeScript
 - JavaScript (ES6+)
-- Android (Java)
 
 ### Backend & Cloud
-- Firebase Authentication
-- Firestore
+- Firebase
 - Realtime Database
-- Firebase Analytics
 - Crashlytics
-- Cloud Messaging
 - Node.js
 - Express
 - MongoDB
@@ -76,7 +72,6 @@ I enjoy building products that combine **clean architecture, polished user exper
 ### AI & Tools
 - LLM API Integration
 - Prompt Engineering
-- Gemini CLI
 - Git
 - Android Studio
 - Xcode
