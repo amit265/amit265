@@ -12,13 +12,13 @@ I enjoy building products that combine **clean architecture, polished user exper
 
 ## 📊 GitHub Statistics
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=amit265&show_icons=true&theme=radical&rank_icon=github" alt="Amit's GitHub stats" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=amit265&layout=compact&theme=radical" alt="Top Languages" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="github-metrics.svg" alt="GitHub Metrics" />
@@ -124,13 +124,6 @@ https://play.google.com/store/apps/details?id=com.mindcraftlearning.spinthewheel
 🍎 App Store  
 https://apps.apple.com/us/app/spinny-random-picker-wheel/id6760378786
 
----
-
-## 📚 CodeRespite
-
-Developer platform featuring technical articles, coding resources, and modern web development projects.
-
-🌐 https://coderespite.in
 
 ---
 
