@@ -19,7 +19,6 @@ jobs:
         with:
           # 🔐 Classic PAT with: repo, read:org, read:user
           token: ${{ secrets.METRICS_TOKEN }}
-          log: debug
 
           # 👤 Basic identity
           user: amit265
@@ -34,10 +33,8 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_skipped: node_modules, build, .expo, dist
 
-
           # 🔥 COMMIT STREAK (very stable)
           plugin_streak: yes
-
 
           # 📈 TOTAL LINES OF CODE (simple + honest)
           plugin_lines: yes
