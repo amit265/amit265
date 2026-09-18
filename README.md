@@ -7,7 +7,7 @@ I'm a **React Native Developer** focused on building high-quality mobile applica
 Over the past several years, I've independently built consumer Android applications reaching **240K+ combined active users**, and I'm currently developing and shipping production-ready cross-platform apps at **[Destya Studio](https://destyastudio.com/)**.
 
 I enjoy building products that combine **clean architecture, polished user experiences, Firebase-powered backends, offline-first capabilities, and AI-driven features.**
-
+  
 ---
 
 ## 📊 GitHub Statistics
